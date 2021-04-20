@@ -59,7 +59,7 @@ namespace unp4k
 
 								using (Stream s = pak.GetInputStream(entry))
 								{
-									using (FileStream fs = File.Create(entry.Name))
+									using (FileStream fs = File.Create(OutputPath + entry.Name))
 									{
 										StreamUtils.Copy(s, fs, buf);
 									}
