@@ -2,7 +2,8 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFrameworks>net47</TargetFrameworks>
+    <!--<TargetFrameworks>netcoreapp2.0;net47</TargetFrameworks>-->
+		<TargetFrameworks>net47</TargetFrameworks>
     <StartupObject>unp4k.Program</StartupObject>
     <RuntimeIdentifiers>win-x64;win-x86</RuntimeIdentifiers>
     <RuntimeIdentifier>win-x64</RuntimeIdentifier>
@@ -17,7 +18,7 @@
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="xcopy $(TargetDir)\* C:\Users\Kaji_\OneDrive\Documents\RSI /s /e /y" />
+    <Exec Command="xcopy $(TargetDir)\* C:\Users\Kaji_\Documents\RSI /s /e /y" />
   </Target>
 
 </Project>
