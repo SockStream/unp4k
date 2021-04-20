@@ -1,8 +1,8 @@
 {
-	"profiles": {
-		"unp4k": {
-			"commandName": "Project",
-			"commandLineArgs": "O:\\StarCitizen\\StarCitizenPTU\\LIVE\\Data.p4k dcb"
-		}
-	}
+  "profiles": {
+    "unp4k": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\Kaji_\\Desktop\\Data.p4k  C:\\Users\\Kaji_\\Desktop\\out"
+    }
+  }
 }
